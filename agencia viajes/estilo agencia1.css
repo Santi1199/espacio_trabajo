@@ -1,0 +1,88 @@
+
+h1{
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
+	background-color: gray;
+}
+
+h2{
+	font-size: 37px;
+	text-align: center;
+	color: darkgreen ;
+}
+
+body{
+	margin: 0;
+	background: linear-gradient(to bottom, 
+	#FCD116 0%,    /* Amarillo */
+	#FCD116 40%,   /* Amarillo */
+	#d2c100 41%,   /* Degradado de amarillo a azul */
+	#003893 70%,   /* Azul */
+	#38004e 71%,   /* Degradado de azul a rojo */
+	#CE1126 100%   /* Rojo */ );
+	background-attachment: fixed;
+	height: 100vh;
+	color: black;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+p{
+	font-size: 22px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+div{
+	margin-left: 20%;
+	display: flex;
+	width: 800px;
+	height: 430px;
+
+}
+
+div img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: 0.8;
+	transition: 0.5s ease
+}
+
+div img:hover{
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+
+a:link{
+font-size: 30px;
+color: coral;
+}
+
+a:visited{
+	color: fuchsia;
+}
+a:hover{
+	color: greenyellow;
+}
+
+
+footer{
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+	font-size: 15px;
+	text-align: right;
+	margin: auto;
+	color: #ffffff;
+	background-color: gray;
+}
